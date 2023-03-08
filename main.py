@@ -1,7 +1,7 @@
 
 
 def test_one():
-    assert 1 < 2
+    assert 1 < 2, "Test failed"
 
 
 def test_two(x, y):
