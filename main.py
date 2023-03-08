@@ -8,7 +8,7 @@ def test_two(x, y):
     assert x > y, f"{y} больше {x}"
 
 def test_three(x):
-    assert x == 0
+    assert x == 0, f"{x} не равен нулю"
 
 
 print(test_two(2, 1))
