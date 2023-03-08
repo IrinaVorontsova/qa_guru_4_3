@@ -11,5 +11,5 @@ def test_three(z):
     assert z == 0, f"{z} не равно 0"
 
 
-print(test_two(3, 1))
+print(test_two(2, 1))
 print(test_two(1, 2))
