@@ -1,7 +1,7 @@
 
 
 def test_one(x):
-    assert x!= 0
+    assert x != 0, f"{x} равен нулю"
 
 
 def test_two(x, y):
