@@ -1,7 +1,7 @@
 
 
-def test_one():
-    assert 1 < 2
+def test_one(x):
+    assert x!= 0
 
 
 def test_two(x, y):
@@ -10,3 +10,5 @@ def test_two(x, y):
 
 print(test_two(2, 1))
 print(test_two(1, 2))
+
+print(test_one(1))
